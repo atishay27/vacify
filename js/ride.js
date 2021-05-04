@@ -19,3 +19,6 @@ function requestUnicorn() {
         }
     });
 }
+function completeRequest(result) {
+    console.log('Response received from API: ', result);
+}
