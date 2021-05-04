@@ -1,7 +1,7 @@
 function requestUnicorn() {
     $.ajax({
         method: 'POST',
-        url: 'https://kwuk5atz5l.execute-api.ap-south-1.amazonaws.com/prod/ride',
+        url: 'https://kwuk5atz5l.execute-api.ap-south-1.amazonaws.com/prod/test',
         headers: {
         },
         data: JSON.stringify({
