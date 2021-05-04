@@ -3,7 +3,6 @@ function requestUnicorn() {
         method: 'POST',
         url: 'https://kwuk5atz5l.execute-api.ap-south-1.amazonaws.com/prod/ride',
         headers: {
-            Authorization: false
         },
         data: JSON.stringify({
             PickupLocation: {
