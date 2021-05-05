@@ -22,7 +22,7 @@
             <form class="needs-validation" novalidate action="#">
               <li class="list-group-item">
                 <div class="input-group my-1">
-                  <input type="text" class="form-control" placeholder="Name" aria-label="Name" id="name" required>
+                  <input type="text" pattern="^[a-zA-Z]{1,24}[\s]*[a-zA-Z]{0,24}$" class="form-control" placeholder="Name" aria-label="Name" id="name" required>
                   <div class="invalid-feedback">
                     Please enter your name.
                   </div>
@@ -64,7 +64,7 @@
               <li class="list-group-item">
                 <div class="input-group my-1">
                   <span class="input-group-text" id="basic-addon1">+91-</span>
-                  <input type="number" class="form-control" placeholder="Phone Number" aria-label="phoneNumber" aria-describedby="basic-addon1" required>
+                  <input type="tel" pattern="[0-9]{10}" class="form-control" placeholder="Phone Number" aria-label="phoneNumber" aria-describedby="basic-addon1" required id="phoneNum">
                   <button class="btn btn-outline-secondary" type="button" id="button-addon1">Request OTP</button>
                   <div class="invalid-feedback">
                     Please provide a valid phone number.
